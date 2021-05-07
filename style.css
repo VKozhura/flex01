@@ -34,9 +34,21 @@ body {
   }
   
   .site-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
     width: 400px;
     font-size: 16px;
     line-height: 19px;
+  }
+
+  .site-navigation-item {
+    padding: 25px 0;
+    margin-right: 35px;
   }
   
   /* чтобы убрать подчеркинвание у ссылки */
@@ -50,5 +62,17 @@ body {
   } 
   
   .user-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
     width: 400px;
+  }
+
+  .user-navigation-item {
+    padding: 25px 0;
+    margin-left: 35px;
   }
