@@ -24,3 +24,16 @@ body {
     width: 1px;
     overflow: hidden;
   }
+
+  a {
+    color: inherit;
+  }
+  
+  .site-navigation {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .link-item {
+    text-decoration: none;
+  }
