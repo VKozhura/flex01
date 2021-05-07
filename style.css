@@ -77,3 +77,31 @@ body {
     padding: 25px 0;
     margin-left: 35px;
   }
+
+  .promo {
+    background-color: #f1f2f4;
+  }
+
+  .promo-text {
+    font-family: "Anton", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 128px;
+    line-height: 188px;
+    text-transform: uppercase;
+  }
+  
+  .promo-title {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #727a82;
+  }
+  
+  .button {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    background-color: #151c22;
+  }
