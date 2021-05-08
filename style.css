@@ -118,3 +118,27 @@ body {
     color: #ffffff;
     background-color: #151c22;
   }
+
+  .section-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  
+  .catalog-item-link {
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+  }
+  
+  .catalog-item h3 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+  
+  .catalog-item-price {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+  }
