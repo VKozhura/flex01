@@ -136,6 +136,22 @@ body {
     font-size: 32px;
     line-height: 38px;
   }
+
+  .catalog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* чтоыбы в ряд влезло 4 карточки, а не три */
+    margin-right: -30px;
+  }
+  
+  .catalog-item {
+    width: 270px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+  }
   
   .catalog-item-link {
     font-size: 18px;
