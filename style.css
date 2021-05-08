@@ -197,3 +197,14 @@ body {
   .news-img-column {
     width: 700px;
   }
+
+  .main-footer {
+    background-color: #151c22;
+  }
+  
+  .footer-navigation-link {
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+  }
