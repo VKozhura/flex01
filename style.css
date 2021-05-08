@@ -199,7 +199,15 @@ body {
   }
 
   .main-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #151c22;
+  }
+
+  .main-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .footer-navigation-link {
