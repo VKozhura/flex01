@@ -201,6 +201,26 @@ body {
   .catalog-header {
     background-color: #f1f2f4;
   }
+
+  .catalog-header-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .catalog-header-text-column {
+    width: 370px;
+    padding: 70px 0 70px 200px;
+  }
+  
+  .catalog-header-img-column {
+    width: 400px;
+    padding: 0 50px 0 50px;
+  }
+  
+  .catalog-header-img-column img {
+    /* к флексу тоже можно применять? */
+    vertical-align: middle;
+  }
   
   .catalog-title {
     width: 272px;
