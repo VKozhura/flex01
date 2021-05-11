@@ -230,8 +230,17 @@ body {
     color: #151c22;
   }
 
+  .breadcrumbs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .breadcrumbs-item {
     color: #727a82;
+    margin-right: 30px;
   }
 
   .breadcrumbs-current {
