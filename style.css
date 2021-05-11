@@ -174,7 +174,7 @@ body {
     margin-bottom: 52px;
     margin-right: 66px;
   }
-  
+
   .catalog-item h3 {
     margin-top: 20px;
     margin-bottom: 0;
@@ -265,6 +265,22 @@ body {
     /* Зачем здесь инхерит? */
     color: inherit;
     text-decoration: none;
+  }
+
+  .catalog-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 155px;
+  }
+
+  .catalog-slider-caption {
+    margin-bottom: 55px;
+  }
+
+  .catalog-slider-button {
+    width: 200px;
+    height: 64px;
   }
 
   .main-footer {
