@@ -78,6 +78,11 @@ body {
     margin-left: 35px;
   }
 
+  .similar {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
   .promo {
     background-color: #f1f2f4;
   }
@@ -281,6 +286,62 @@ body {
   .catalog-slider-button {
     width: 200px;
     height: 64px;
+  }
+
+  .card {
+    background-image: linear-gradient(to right, #ffffff 50%, #f1f2f4 50%);
+  }
+
+  .card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .card-photos-column {
+    width: 600px;
+    background-color: #ffffff;
+  }
+
+  .card-photos-slider-preview {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: -20px;
+  }
+  
+  .card-photos-slider-preview-item {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .card-description-column {
+    width: 370px;
+    padding: 40px 0 0 70px;
+    color: #151c22;
+  }
+  
+  .card-description-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .card-description-price {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .card-order-field {
+    margin: 0 0 25px 0;
+    padding: 0;
+    border: none;
+  }
+  
+  .card-order-field legend {
+    margin-bottom: 25px;
   }
 
   .main-footer {
